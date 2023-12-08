@@ -52,7 +52,7 @@
      */
 
 body {
-  font-size: 16px;
+  font-size: 15px;
   /* color: #505050; */
   font-family: "Roboto Condensed", sans-serif;
   vertical-align: baseline;
@@ -67,7 +67,7 @@ body {
 }
 
 .wrapper h1 {
-  font-size: 70px;
+  font-size: 80px;
   margin-top: 1px;
   text-align: center;
   justify-content: center;
@@ -189,7 +189,7 @@ a {
   }
 
   .wrapper h1 {
-    font-size: 30px !important;
+    font-size: 25px !important;
     margin-top: 1px !important;
     text-align: center;
     margin-bottom: 70px;
@@ -201,13 +201,13 @@ a {
       "Lucida Sans", Arial, sans-serif;
   }
   .wrapper h2 {
-    font-size: 30px;
+    font-size: 25px;
     color: #ffffff;
     margin-top: 90px !important;
     font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
       "Lucida Sans", Arial, sans-serif;
     border: 1px solid #ffffff;
-    width: 350px;
+    width: 320px;
     font-weight: bold;
     border-radius: 25px;
     padding: 5px;
