@@ -41,7 +41,7 @@
         <p>1.&nbsp; &nbsp; Mohon isi data yang diperlukan dengan benar dan pastikan tidak ada kesalahan penulisan. Mohon pastikan juga bahwa data yang dikirimkan sudah fix dan tidak ada perubahan.</p>
         <p>2.&nbsp; &nbsp;Setelah memastikan data sudah benar, Anda dapat mengklik kirim. Jika kami telah menerima data Anda, akan ada notifikasi berwarna hijau seperti di atas tombol kirim : </p>
         <img class="con" src="../../1.PNG" alt="">
-        <p>3.&nbsp; &nbsp;Tunggu beberapa saat hingga email konfirmasi pendaftaran dikirim ke email ketua tim yang Anda tulis.</p>
+        <p>3.&nbsp; &nbsp;Tunggu selama 3x24 jam dari waktu pendaftaran LoA akan dikirimkan kepada email ketua tim.</p>
         <form name="#">
           
           <div class="user-details">
@@ -84,6 +84,12 @@
                 </option>
                 <option value="Offline Competition">
                   Kompetisi Offline
+                </option>
+                <option value="Offline Competition">
+                  Offline Kompetisi + Excursion
+                </option>
+                <option value="Offline Competition">
+                  Offline Kompetisi + Full Package
                 </option>
               </select>
             </div>
@@ -504,7 +510,7 @@
       fetch(scriptURL, { method: 'POST', body: new FormData(form) })
         .then((response) =>
           $('#form_alerts').html(
-            "<div class='alert alert-success'>Data berhasil dikirim, Tunggu email konfirmasi pendaftaran yang dikirimkan ke email ketua tim.</div>"
+            "<div class='alert alert-success'>Data berhasil dikirim, Tunggu selama 3x24 jam dari waktu pendaftaran LoA akan dikirimkan kepada email ketua tim.</div>"
           )
         )
         .catch((error) =>
