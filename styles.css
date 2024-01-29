@@ -86,7 +86,7 @@ body {
   border: 1px solid #ffffff;
   width: 400px;
   font-weight: bold;
-  border-radius: 20px;
+  border-radius: 10px;
   padding: 5px;
   background: linear-gradient(to right, #0000FF 30%, #696969 70%);
 }
